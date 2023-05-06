@@ -1,12 +1,11 @@
 import React from 'react';
 import style from './style.module.scss';
-import { ReturnButton, NextButton } from '../buttons/Button';
 import JsonData from '../../db.json';
 import { BsFillHexagonFill } from 'react-icons/bs';
 
 export default function ImagePage() {
   return (
-    <section>
+    <>
       <div className={style['img-container']}>
         <img src={JsonData.image} alt="" className={style['img']} />
         <div className={style['img-text']}>
@@ -27,8 +26,6 @@ export default function ImagePage() {
           </span>
         </div>
       </div>
-      <ReturnButton></ReturnButton>
-      <NextButton></NextButton>
-    </section>
+    </>
   );
 }

@@ -1,10 +1,9 @@
 import React from 'react';
 import style from './style.module.scss';
-import { ReturnButton, NextButton } from '../buttons/Button';
 
 export default function Contents() {
   return (
-    <section>
+    <>
       <div className={style['hexagon-container']}>
         <div className={style['contents-hexagon']}>
           <ul className={style['contents-hexagon__lists']}>
@@ -34,8 +33,6 @@ export default function Contents() {
           C<span>ONTENTS</span>
         </span>
       </div>
-      <ReturnButton></ReturnButton>
-      <NextButton></NextButton>
-    </section>
+    </>
   );
 }
