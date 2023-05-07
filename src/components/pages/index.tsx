@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import style from './style.module.scss';
 import Contents from '../contentsPage/Contents';
 import Hexagon from '../hexagon/Hexagon';
 import ImagePage from '../imagePage';

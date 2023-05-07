@@ -16,5 +16,12 @@
   "profile": {
     "name": "typicode"
   },
+  "music": [
+    { "name": "cinderella", "path": "./src/assets/cinderella.mp3" },
+    { "name": "manhattan", "path": "./src/assets/manhattan.mp3" },
+    { "name": "moscow mule", "path": "./src/assets/moscowmule.mp3" },
+    { "name": "rasty nail", "path": "./src/assets/rastynail.mp3" },
+    { "name": "sidecar", "path": "./src/assets/sidecar.mp3" }
+  ],
   "image": "https://images.unsplash.com/photo-1543921162-9a0dc171d44f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2787&q=80"
 }
