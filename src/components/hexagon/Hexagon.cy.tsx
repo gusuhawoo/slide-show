@@ -1,9 +1,12 @@
-import React from 'react'
-import Hexagon from './Hexagon'
+import React from 'react';
+import Hexagon, { HexagonProps } from './Hexagon';
 
 describe('<Hexagon />', () => {
   it('renders', () => {
-    // see: https://on.cypress.io/mounting-react
-    cy.mount(<Hexagon />)
-  })
-})
+    const props: HexagonProps = {
+      title: 'テスト',
+      subtitle: '中です',
+    };
+    cy.mount(<Hexagon {...props} />);
+  });
+});

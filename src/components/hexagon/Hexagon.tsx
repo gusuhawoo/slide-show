@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './style.module.scss';
 
-type HexagonProps = {
+export type HexagonProps = {
   title: string;
   subtitle: string;
 };
