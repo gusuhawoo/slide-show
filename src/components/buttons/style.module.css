@@ -1,0 +1,31 @@
+button {
+  position: fixed;
+  height: 3rem;
+  width: 3rem;
+  bottom: 1rem;
+  border: none;
+}
+
+img {
+  margin: 0;
+  padding: 0;
+  width: 2rem;
+  height: 2rem;
+}
+
+.return-button {
+  left: 1rem;
+  cursor: w-resize;
+  border-radius: 50%;
+}
+
+.next-button {
+  right: 1rem;
+  cursor: e-resize;
+  border-radius: 50%;
+}
+
+.return-button:hover,
+.next-button:hover {
+  background-color: #808080;
+}/*# sourceMappingURL=style.module.css.map */

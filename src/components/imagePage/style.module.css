@@ -1,0 +1,39 @@
+.img-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  height: 100vh;
+}
+
+.img {
+  height: 70vh;
+  width: 30vw;
+}
+
+.img-text {
+  padding-bottom: 20vh;
+  padding-right: 5vw;
+}
+.img-text__title {
+  font-size: calc(1rem + 2vw);
+}
+.img-text__description {
+  font-size: calc(0.5rem + 1vw);
+}
+
+@media screen and (max-width: 767px) {
+  .img-container {
+    place-items: center auto;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .img-container .img {
+    height: 30vh;
+    width: 40vw;
+  }
+  .img-container .img-text {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}/*# sourceMappingURL=style.module.css.map */
