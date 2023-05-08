@@ -2,6 +2,7 @@
   "name": "slide-show",
   "version": "0.1.0",
   "private": true,
+  "homepage": "/slide-show",
   "dependencies": {
     "@babel/preset-typescript": "^7.21.4",
     "@testing-library/jest-dom": "^5.14.1",
@@ -27,8 +28,7 @@
     "server": "json-server --watch db.json --port 8000",
     "cy:open": "cypress open",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "homepage": "https://gusuhawoo.github.io/slide-show/"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
