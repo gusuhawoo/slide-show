@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.8177cc5a.css",
-    "main.js": "/static/js/main.e9b58f49.js",
-    "static/js/496.6bd62005.chunk.js": "/static/js/496.6bd62005.chunk.js",
-    "index.html": "/index.html",
-    "static/media/caret-right-solid.svg": "/static/media/caret-right-solid.3c29e82a0b8404d498800c4fc9a4b333.svg",
-    "static/media/caret-left-solid.svg": "/static/media/caret-left-solid.6542a0051a5b3adbf4960d1aae0354b4.svg",
-    "main.8177cc5a.css.map": "/static/css/main.8177cc5a.css.map",
-    "main.e9b58f49.js.map": "/static/js/main.e9b58f49.js.map",
-    "496.6bd62005.chunk.js.map": "/static/js/496.6bd62005.chunk.js.map"
+    "main.css": "/slide-show/static/css/main.8177cc5a.css",
+    "main.js": "/slide-show/static/js/main.0513dbce.js",
+    "static/js/496.6bd62005.chunk.js": "/slide-show/static/js/496.6bd62005.chunk.js",
+    "index.html": "/slide-show/index.html",
+    "static/media/caret-right-solid.svg": "/slide-show/static/media/caret-right-solid.3c29e82a0b8404d498800c4fc9a4b333.svg",
+    "static/media/caret-left-solid.svg": "/slide-show/static/media/caret-left-solid.6542a0051a5b3adbf4960d1aae0354b4.svg",
+    "main.8177cc5a.css.map": "/slide-show/static/css/main.8177cc5a.css.map",
+    "main.0513dbce.js.map": "/slide-show/static/js/main.0513dbce.js.map",
+    "496.6bd62005.chunk.js.map": "/slide-show/static/js/496.6bd62005.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8177cc5a.css",
-    "static/js/main.e9b58f49.js"
+    "static/js/main.0513dbce.js"
   ]
 }
