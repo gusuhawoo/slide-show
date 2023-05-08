@@ -1,4 +1,3 @@
-import React from 'react';
 import { NextButton } from './Button';
 
 describe('<NextButton />', () => {

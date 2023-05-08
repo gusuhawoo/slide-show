@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Contents from '../contentsPage/Contents';
 import Hexagon from '../hexagon/Hexagon';
 import ImagePage from '../imagePage';

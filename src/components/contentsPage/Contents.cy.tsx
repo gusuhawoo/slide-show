@@ -1,9 +1,8 @@
-import React from 'react'
-import Contents from './Contents'
+import Contents from './Contents';
 
 describe('<Contents />', () => {
   it('renders', () => {
     // see: https://on.cypress.io/mounting-react
-    cy.mount(<Contents />)
-  })
-})
+    cy.mount(<Contents />);
+  });
+});

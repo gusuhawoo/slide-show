@@ -1,4 +1,3 @@
-import React from 'react';
 import ImagePage from './index';
 
 describe('<ImagePage />', () => {

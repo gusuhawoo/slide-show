@@ -1,4 +1,3 @@
-import React from 'react';
 import { ReturnButton } from './Button';
 
 describe('<ReturnButton />', () => {

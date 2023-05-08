@@ -1,4 +1,3 @@
-import React from 'react';
 import style from './style.module.scss';
 import JsonData from '../../db.json';
 import { BsFillHexagonFill } from 'react-icons/bs';

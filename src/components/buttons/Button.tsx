@@ -1,4 +1,3 @@
-import React from 'react';
 import style from './style.module.scss';
 import returnButton from '../../assets/caret-left-solid.svg';
 import nextButton from '../../assets/caret-right-solid.svg';

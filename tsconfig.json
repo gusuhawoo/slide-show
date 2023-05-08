@@ -22,15 +22,5 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "plugins": [
-      {
-        "name": "typescript-plugin-css-modules",
-        "options": {
-          "generateScopedName": "[name]__[local]___[hash:base64:5]",
-          "autoResolveMultipleImports": true
-        }
-      }
-    ]
-  }
+    "noFallthroughCasesInSwitch": true
 }
